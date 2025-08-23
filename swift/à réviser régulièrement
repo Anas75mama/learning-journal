@@ -1,0 +1,5 @@
+Se familiariser avec les principes de base de Swift et SwiftUI
+S'imprégner des principes fondamentaux du développement d'app mobile iOS (le cycle de vie d'une app iOS du lancement à la fermeture via
+les méthodes d'AppDelegate/SceneDelegate) ,la gestion de la mémoire par ARC (Automatic Reference Counting), le modéle énvènmentiel (comment réagir 
+aux intéractions utilisateur et aux changements d'état de l'app) ainsi que les notions de base de en design d'interface mobile (respect des Human interface Guidelines d'Apple
+en matière d'ergonomie et d'accessibilité). 

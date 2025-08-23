@@ -1,0 +1,65 @@
+
+Phase 1 : Conception & Préparation (1-2 semaines)
+🎯 Objectif : Structurer l’application et préparer un prototype testable.
+
+✅ Définition du MVP final (déjà fait 💪)
+✅ Conception UI/UX (maquettes des écrans 1.1 à 1.4 + écran de suivi des performances)
+✅ Choix des technologies : SwiftUI + Core Data ou CloudKit pour le stockage
+✅ Création du projet Xcode : Mise en place des écrans de navigation
+
+Phase 2 : Développement de l’application (3-5 semaines)
+🎯 Objectif : Construire et tester une version fonctionnelle du MVP.
+
+Semaine 1-2 : Développement du suivi des séances
+✅ Implémentation de l’écran d’accueil (bouton haltère pour démarrer une séance)
+✅ Ajout de la sélection du groupe musculaire
+✅ Ajout de la liste d’exercices par groupe musculaire
+
+Semaine 3-4 : Développement du suivi des performances
+✅ Mise en place du chrono et affichage GIF des exercices
+✅ Stockage des données des séances avec Core Data (ou CloudKit si tu veux une synchro iCloud)
+✅ Implémentation du tableau de bord (dashboard) :
+
+Liste des exercices pratiqués sous forme de cartes
+Graphique de progression des charges
+Affichage du record personnel
+Semaine 5 : Optimisation & Debugging
+✅ Tests unitaires et validation du stockage des performances
+✅ Vérification de l’UI sur différents iPhones (adaptation aux tailles d’écran)
+✅ Optimisation des animations SwiftUI
+
+Phase 3 : Test & Préparation pour l'App Store (2-3 semaines)
+🎯 Objectif : Finaliser l’application et respecter les guidelines Apple.
+
+Semaine 6 : Tests approfondis
+✅ Test sur simulateur + sur un iPhone réel (debug des éventuels crashs)
+✅ Vérification des performances et de la fluidité
+
+Semaine 7 : Création du compte développeur Apple & Configuration
+✅ Inscription sur Apple Developer Program (99$/an)
+✅ Configuration d’App Store Connect
+✅ Création des icônes et captures d’écran pour l’App Store
+
+Semaine 8 : Soumission & Validation par Apple
+✅ Soumission de l’application via Xcode
+✅ Correction des éventuelles remarques Apple (ils répondent en 24-48h)
+✅ Lancement sur l’App Store 🎉
+
+Phase 4 : Amélioration & Monétisation (Après lancement)
+🎯 Objectif : Ajouter des fonctionnalités et générer des revenus.
+
+📌 Évolutions possibles (après MVP)
+
+Ajout d’un mode préconfiguré pour les séances
+Intégration avec Apple Health / Google Fit
+Ajout d’un système de gamification (badges, défis)
+💰 Monétisation
+
+Version gratuite avec achats intégrés (débloquer des fonctionnalités avancées)
+Abonnement mensuel ou one-time purchase
+Conclusion : Temps total estimé → 8 à 10 semaines
+🔹 MVP fonctionnel en 5-6 semaines
+🔹 Tests et soumission à Apple en 2-3 semaines
+🔹 Lancement rapide, puis améliorations continues
+
+Si tu suis cette roadmap, tu pourras publier ton application en moins de 3 mois avec une base solide et évolutive. 🚀

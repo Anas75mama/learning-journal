@@ -1,0 +1,63 @@
+Ecran 1: accueil : 
+----------------------------------------------------------
+  Dés l'ouverture de l'application un bouton sous forme d'haltère permet à l'utilisateur de créer une nouvelle séance de muscu
+  Dés que le bouton haltère est appuyé, l'écran 1.1 apparait 
+  
+  Ecran 1.1: sélection du groupe musculaire à travailler 
+  --------------------------------------------------------- 
+    Des pastilles/cartes ou balises (choisir un design moderne) permettent à l'utlisateur de sélectionner le groupe musculaire à travailler pendant la séannce 
+    Exemple: pec, épaules, dos ou bas du corp (intégrer d'autres possibilités si nécessaire)
+    Dés que le choix du groupe musculaire à travailler pendant la séance est effectué (choix unique)
+    L'écran 1.2 apparait
+
+  Ecran 1.2: liste des exercices du groue musculaire choisi
+  ---------------------------------------------------------- 
+    Des pastilles/cartes ou balises (choisir un design moderne) permettent à l'utlisateur de sélectionner l'exercice à effectuer 
+    Dés qu'un exercice est sélectionné
+    L'écran 1.3 apparait et un chrono est lancé
+    
+  Ecran 1.3: exercice en cours 
+  ----------------------------------------------------------
+    Visible (frontEnd): 
+      Un chrono avec un design moderne qui tourne au milieu
+      Un GIF qui montre comment l'exercice doit être effectué
+      Titre: l'exercice en-cours + le groupe musculaire en-cours  
+      Un bouton (exercice done) d'afficher l'écran 1.4
+      Un bouton (switch exercice) qui permet à l'utilisateur d'afficher l'écran 1.4
+      Un bouton (switch group muscles) qui permet à l'utilisateur d'afficher l'écran 1.4
+      Un bouton (cancel de session): qui permet à l'utilisateur d'afficher l'écran 1.4
+    Invisible (backEnd)
+      Dés que le premier exercice est sélectionné, la séance est crée avec la date du jour et l'heure qui sont générés automatiquement et stockés
+
+  Ecran 1.4: enregistrement du nombre de séries éffectuées, des répétitions..et autres
+  ----------------------------------------------------------
+      Dés qu'un des boutons de l'écran 1.3 est actionné, l'écran 1.4 apparait. 
+      Dans cette écran on collecte des informations sur le déroulement de l'exercice qui vient d'être effectué ou annulé par l'utilisateur (pour changer l'exercice, le groupe musculaire ou carréement annuler la séance).
+      Dans cette écran, on demande à l'utilisateur de sélectionner : 
+        le nombre de séries effectuées, le nombre de répétitions par série et le poids par répétition
+      Une fois ces informations sont collectées l'utilisateur valide on appuyant sur un bouton. 
+      Un petite fenêtre contenant 3 boutons apparait devant l'utilisateur lui demandant de choisir s'il veut:
+        Choisir un autre exercice du même groupe musculaire écran 1.2 (du groupe musculaire en-cours)
+        Changer le groupe musculaire et d'aller sur l'écran 1.1
+        Terminer la séance et retourner à la page "Home" écran 1
+
+Ecran 2 : Affichage global des performances et des habitudes d'entrainenemtn sous forme de dashboard 
+  ----------------------------------------------------------
+      Historique et évolution: 
+
+        Liste des exercices sous forme de cartes, permettant de sélectionner un exercice pour voir ses performances.
+        Graphique de progression des charges par exercice, basé sur un indicateur de force (charge × répétitions).
+        Affichage du record personnel (charge max soulevée) pour chaque exercice sélectionné.
+          
+          
+          
+          
+          
+    
+
+
+    
+    
+
+  
+  
