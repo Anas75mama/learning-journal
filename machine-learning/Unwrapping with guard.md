@@ -15,7 +15,6 @@ print("Hello, \(unwrapped)!")
 ```
 
 ##### pourquoi on utilise le underscore devant l'étiquette de l'argument d'une fonction ? 
-
 La donnée que process la fonction est appelée :
 
 De l'extérieur (quand on appelle la fonction) : argument
