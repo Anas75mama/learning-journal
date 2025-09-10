@@ -15,7 +15,7 @@ else {
 
 ```
 
-Dans l'exemple ci-dessus on sécurise la possibilité de lancer un comptage des lettres alors que la valeur de nom est nulle 
+Dans l'exemple ci-dessus on sécurise la possibilité de lancer un comptage des lettres quand la valeur de nom est nulle 
 
 Le unwrapping (déballage en français) permet de révéler le contenu d'une boite. Pour éliminer le risque de faire crasher le code quand la boite est vide. 
 
